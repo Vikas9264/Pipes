@@ -15,5 +15,11 @@ pipeline
                 echo "World"
             }
         }
+          stage('Deploy')
+        {
+            steps{
+                echo "World"
+            }
+        }
     }
 }
